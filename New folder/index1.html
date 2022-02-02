@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Yourname Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(195, 0, 255);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(71, 8, 245);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 100%; /* only for demonstration, should be removed */
+  background: rgb(1, 233, 250);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 80%;
+  background-color: #07f586;
+  height: 100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(250, 82, 4);
+  padding: 10px;
+  text-align: center;
+  color: rgb(229, 253, 7);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        Yotsaphat Protfolio
+    </header>
+    <nav>
+        Portfolio<br>
+        <a href="index.html"> New Portfolio</a><br>
+        <a href="index1.html" target="_blank" Old Portfolio></a><br>
+        <a href="index2.html"> My favourite</a><br>
+        <a href="table.html">ตารางเรียน</a>
+    </nav>
+    <article>
+      <body align="center" bgcolor="Purple">
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p><br>
+        <img src="images/WIN_20211117_15_18_26_Pro.jpg" width="23%" height="25%">
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p><br>
+        <h1>ชื่อ : ด.ช.ยศพัทธ์ ปทุมสุวรรณวดี</h1>
+        <h1>ชั้น : ม. 1</h1>
+        <h1>ห้อง : 4</h1>
+        <h1>เลขที่ : 12</h1>
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p><br>
+        <h1>วิชาที่เรียน</h1>
+        <h2>ญ20202 วิชาภาษาญี่ปุ่น</h2>
+        <h2>ว20202 วิชาเริ่มต้นกับโครงงาน</h2>
+        <h2>ค20202 วิชาคณิตเพิ่มเติม</h2>
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p><br>
+        <h1>ข้อมูลติดต่อ</h1>
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p><br>
+        <h2>เบอร์โทรศัพท์ติดต่อ : 0933355655</h2>
+        <h2>Email : Yotsaphat.Pat@pccpl.ac.th</h2>
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p><br>
+        <h1>ที่อยู่</h1>
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p><br>
+        <h1>170 หมู่ 4 ต.ห้วยเฮี้ย อ.นครไทย จ.พิษณุโลก 65120</h1>
+        <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    </article>
+</body>
+</html>
+
